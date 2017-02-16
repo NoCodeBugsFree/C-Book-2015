@@ -24,7 +24,7 @@ public:
 	// Called every frame
 	virtual void Tick( float DeltaSeconds ) override;
 
-	// Called to bind functionality to inpute
+	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
 
 	FORCEINLINE float GetBaseAttackDamage() { return BaseAttackDamage; }

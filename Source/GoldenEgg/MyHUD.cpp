@@ -99,8 +99,8 @@ void AMyHUD::MouseMoved()
 		{
 			// the mouse is being held down
 			// move the widget by displacement amt
-			HeldWidget->Position.X = dMouse.X;
-			HeldWidget->Position.Y = dMouse.Y;
+			HeldWidget->Position.X += dMouse.X;
+			HeldWidget->Position.Y += dMouse.Y;
 		}
 		LastMouse = dMouse;
 	}
